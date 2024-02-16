@@ -1,0 +1,58 @@
+
+.mrl-container {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+body{
+    /* font-family: 'Courier New', Courier, monospace;  */
+    
+}
+
+.divider{
+    height: 1px;
+    background-color:rgb(107, 187, 187);
+}
+
+a{
+    color:rgb(107, 187, 187) ;
+}
+
+.nav-container{
+    
+}
+
+.nav-link{
+    font-weight: 500;
+    font-family:monospace;
+    }
+
+.nav-link:hover{
+    color:rgb(107, 187, 187);
+    
+
+}
+
+.nav{
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.graphic-container {
+   
+    display: flex; /* Set the container as a flex container */
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+
+    height: 800px;
+}
+.graphic-container canvas {
+    /* No need for align-self: center in this case */
+  
+    height: 100%;
+    
+    
+}
+
+
+
+
