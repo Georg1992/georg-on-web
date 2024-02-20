@@ -61,8 +61,8 @@ const CV = () => {
 
                                 <b>Operating Systems:</b> Mac OSX, Linux, Windows <br />
                                 <b>Software/Applications:</b> Unity 3D + Visual Studio Code, Android Studio, Logic Pro X, Steinberg Cubase, Adobe Package <br />
-                                <b>Scripting and Programming Languages:</b> C#, Kotlin, Javascript (Node.js, React.js), C++, Swift, Bash <br />
-                                <b>Frameworks and other tools:</b> GIT, Jira, Cooper, Grafana, Azure AD
+                                <b>Scripting and Programming Languages:</b> Kotlin, Javascript (React, Node.js), C#, C++, Swift, Bash <br />
+                                <b>Frameworks and other tools:</b> GIT, Jira, Cooper, Grafana, Datadog, Azure AD, Amazon AWS
                             </p>
 
                             <h2><b>Education</b></h2>
