@@ -86,11 +86,16 @@ const CV = () => {
                                 <b>Work History</b>
                             </h2>
 
+                            <p>
+                                <i>2023-present</i><br />
+                                Company: RELEX Solutions <br />
+                                Position: Application Support Specialist <br />
 
+                            </p>
 
 
                             <p>
-                                <i>12.2021-present</i><br />
+                                <i>12.2021-2023</i><br />
                                 Company: RELEX Solutions <br />
                                 Position: Application Support Analyst <br />
 
