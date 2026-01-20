@@ -49,20 +49,24 @@ const CV = () => {
                             <h2><b>Overview</b></h2>
                             <p >
 
-                                I am an Information Technology specialist with a background in audio and video production, focusing on multimedia and software engineering.
-                                My professional competencies lie in mobile programming, sound processing, and game design. With a creative yet analytical mindset, I excel at staying focused and solving problems
-                                under any circumstances. Wide knowledge of the technology stack, attention to the details, as well as my passion to create and to learn new things, make me a great candidate for any modern company.
+                                I am a Technical Service Consultant with 3+ years of experience at RELEX Solutions, working extensively with distributed systems, cloud infrastructure, and backend technologies.
+                                My expertise includes debugging complex production systems, working with JVM-based languages (Kotlin, Java), containerization, CI/CD pipelines, and monitoring tools. 
+                                With strong problem-solving abilities and hands-on experience troubleshooting and resolving issues in enterprise software, I excel at maintaining service reliability and understanding system architectures.
+                                I thrive in collaborative, international team environments and am eager to transition into a development role where I can apply my technical knowledge and passion for building robust software solutions.
 
 
                             </p>
 
-                            <h2><b>Software / System Skills</b></h2>
+                            <h2><b>Technical Skills</b></h2>
                             <p>
 
-                                <b>Operating Systems:</b> Mac OSX, Linux, Windows <br />
-                                <b>Software/Applications:</b> Unity 3D + Visual Studio Code, Android Studio, Logic Pro X, Steinberg Cubase, Adobe Package <br />
-                                <b>Scripting and Programming Languages:</b> Kotlin, Javascript (React, Node.js), C#, C++, Swift, Bash <br />
-                                <b>Frameworks and other tools:</b> GIT, Jira, Cooper, Grafana, Datadog, Azure AD, Amazon AWS
+                                <b>Programming Languages:</b> Kotlin, Java, Javascript (Node.js, React), Bash, C#, C++, Swift <br />
+                                <b>Frameworks & Libraries:</b> Spring Boot, Node.js, React <br />
+                                <b>Cloud & Infrastructure:</b> Amazon AWS, Azure AD, Docker, Kubernetes <br />
+                                <b>CI/CD & DevOps:</b> GitLab CI/CD, Git, Jenkins <br />
+                                <b>Monitoring & Observability:</b> Datadog, Grafana, Prometheus <br />
+                                <b>Development Tools:</b> Visual Studio Code, Android Studio, Jira, Cooper <br />
+                                <b>Operating Systems:</b> Linux, Mac OSX, Windows
                             </p>
 
                             <h2><b>Education</b></h2>
@@ -88,24 +92,31 @@ const CV = () => {
 
                             <p>
                                 <i>05.2025-present</i><br />
-                                Company: RELEX Solutions <br />
-                                Position: Technical Service Consultant <br />
-
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Technical Service Consultant <br />
+                                • Debugging and troubleshooting complex issues in distributed cloud-based systems <br />
+                                • Working with containerized services and cloud infrastructure (AWS, Azure) <br />
+                                • Utilizing monitoring and observability tools (Datadog, Grafana) to ensure system reliability <br />
+                                • Collaborating with international development teams <br />
                             </p>
 
                             <p>
                                 <i>2023-05.2025</i><br />
-                                Company: RELEX Solutions <br />
-                                Position: Application Support Specialist <br />
-
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Application Support Specialist <br />
+                                • Analyzed and resolved technical issues in production environments <br />
+                                • Worked with GitLab CI/CD pipelines and version control systems <br />
+                                • Maintained service availability through proactive monitoring and alerting <br />
+                                • Contributed to code reviews and technical documentation <br />
                             </p>
 
 
                             <p>
                                 <i>12.2021-2023</i><br />
-                                Company: RELEX Solutions <br />
-                                Position: Application Support Analyst <br />
-
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Application Support Analyst <br />
+                                • Investigated and debugged software issues in enterprise supply chain optimization systems <br />
+                                • Gained experience with cloud platforms and distributed system architectures <br />
                             </p>
 
                             <p>
@@ -127,12 +138,12 @@ const CV = () => {
                             </p>
 
 
-                            <h2><b>Main Interests</b></h2>
+                            <h2><b>Professional Interests</b></h2>
                             <p>
-                                Audio production <br />
-                                Experimental Art <br />
-                                Video Games <br />
-                                Science and Technology <br />
+                                Distributed Systems & Cloud Architecture <br />
+                                DevOps & Infrastructure as Code <br />
+                                Software Engineering Best Practices <br />
+                                Observability & System Reliability <br />
                             </p>
 
 
