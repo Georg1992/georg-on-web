@@ -43,6 +43,18 @@ const CV = () => {
                             </p>
                         </div>
 
+
+                        <div className="text-left" style={{ marginTop: '20px' }}>
+                            <h2><b>Language Skills</b></h2>
+                            <p>
+                                English (fluent) <br />
+                                Russian (mother tongue) <br />
+                                Finnish (upper intermediate) <br />
+                                German (basic) <br />
+                            </p>
+                        </div>
+
+
                     </Col>
                     <Col xs="12" md="4">
                         <div >
@@ -50,21 +62,63 @@ const CV = () => {
                             <p >
 
                                 I am a Technical Service Consultant with 3+ years of experience at RELEX Solutions, working extensively with distributed systems, cloud infrastructure, and backend technologies.
-                                My expertise includes debugging complex production systems, working with JVM-based languages (Kotlin, Java), containerization, CI/CD pipelines, and monitoring tools. 
+                                My expertise includes debugging complex production systems, working with JVM-based languages (Kotlin, Java), CI/CD pipelines, and monitoring tools. 
                                 With strong problem-solving abilities and hands-on experience troubleshooting and resolving issues in enterprise software, I excel at maintaining service reliability and understanding system architectures.
                                 I thrive in collaborative, international team environments and am eager to transition into a development role where I can apply my technical knowledge and passion for building robust software solutions.
 
 
                             </p>
 
+                            <h2>
+                                <b>Work History</b>
+                            </h2>
+
+                            <p>
+                                <i>05.2025-present</i><br />
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Technical Service Consultant <br />
+                                Debugging production systems, configuring business rules and system settings, analyzing logs with monitoring tools, creating technical documentation, and collaborating with internal development teams.
+                            </p>
+
+                            <p>
+                                <i>2023-05.2025</i><br />
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Application Support Specialist <br />
+                                Resolved technical issues in production environments and worked with GitLab CI/CD pipelines.
+                            </p>
+
+                            <p>
+                                <i>12.2021-2023</i><br />
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> Application Support Analyst <br />
+                                Investigated and debugged software issues in enterprise supply chain optimization systems.
+                            </p>
+
+                            <p>
+                                <i>05.2021-09.2021</i> <br />
+                                Company: Big Ear <br />
+                                Position: Game Developer/Sound Engineer <br />
+                            </p>
+
+                            <p>
+                                <i>09.2014-01.2016 (Civil Service)</i> <br />
+                                Company: Lyhty Ry <br />
+                                Position: Stage Assistant, Audio Engineer <br />
+                            </p>
+
+                        </div>
+                    </Col>
+                    <Col xs="12" md="4">
+                        <div >
+
                             <h2><b>Technical Skills</b></h2>
                             <p>
 
-                                <b>Programming Languages:</b> Kotlin, Java, Javascript (Node.js, React), Bash, C#, C++, Swift <br />
-                                <b>Frameworks & Libraries:</b> Spring Boot, Node.js, React <br />
-                                <b>Cloud & Infrastructure:</b> Amazon AWS, Azure AD, Docker, Kubernetes <br />
-                                <b>CI/CD & DevOps:</b> GitLab CI/CD, Git, Jenkins <br />
-                                <b>Monitoring & Observability:</b> Datadog, Grafana, Prometheus <br />
+                                <b>Programming Languages:</b> Kotlin, Java, Javascript (Node.js, React), C#, Bash <br />
+                                <b>Frameworks & Libraries:</b> Node.js, React, Unity 3D <br />
+                                <b>Cloud & Infrastructure:</b> Azure AD <br />
+                                <b>CI/CD & DevOps:</b> GitLab CI/CD, Git <br />
+                                <b>Monitoring & Observability:</b> Grafana, Datadog, Honeycomb <br />
                                 <b>Development Tools:</b> Visual Studio Code, Android Studio, Jira, Cooper <br />
                                 <b>Operating Systems:</b> Linux, Mac OSX, Windows
                             </p>
@@ -81,81 +135,6 @@ const CV = () => {
                                 108 ECTS <br />
                                 <i>2010-2014 </i> <br />
                             </p>
-                        </div>
-                    </Col>
-                    <Col xs="12" md="4">
-                        <div >
-
-                            <h2>
-                                <b>Work History</b>
-                            </h2>
-
-                            <p>
-                                <i>05.2025-present</i><br />
-                                <b>Company:</b> RELEX Solutions <br />
-                                <b>Position:</b> Technical Service Consultant <br />
-                                • Debugging and troubleshooting complex issues in distributed cloud-based systems <br />
-                                • Working with containerized services and cloud infrastructure (AWS, Azure) <br />
-                                • Utilizing monitoring and observability tools (Datadog, Grafana) to ensure system reliability <br />
-                                • Collaborating with international development teams <br />
-                            </p>
-
-                            <p>
-                                <i>2023-05.2025</i><br />
-                                <b>Company:</b> RELEX Solutions <br />
-                                <b>Position:</b> Application Support Specialist <br />
-                                • Analyzed and resolved technical issues in production environments <br />
-                                • Worked with GitLab CI/CD pipelines and version control systems <br />
-                                • Maintained service availability through proactive monitoring and alerting <br />
-                                • Contributed to code reviews and technical documentation <br />
-                            </p>
-
-
-                            <p>
-                                <i>12.2021-2023</i><br />
-                                <b>Company:</b> RELEX Solutions <br />
-                                <b>Position:</b> Application Support Analyst <br />
-                                • Investigated and debugged software issues in enterprise supply chain optimization systems <br />
-                                • Gained experience with cloud platforms and distributed system architectures <br />
-                            </p>
-
-                            <p>
-                                <i>05.2021-09.2021</i> <br />
-                                Company: Big Ear <br />
-                                Position: Game Developer/Sound Engineer <br />
-                            </p>
-
-                            <p>
-                                <i>09.2014-01.2016 (Civil Service)</i> <br />
-                                Company: Lyhty Ry <br />
-                                Position: Stage Assistant, Audio Engineer <br />
-                            </p>
-
-                            <p>
-                                <i>2010-present</i> <br />
-                                Various multimedia jobs and freelancing. <br />
-                                Sound production, video production. <br />
-                            </p>
-
-
-                            <h2><b>Professional Interests</b></h2>
-                            <p>
-                                Distributed Systems & Cloud Architecture <br />
-                                DevOps & Infrastructure as Code <br />
-                                Software Engineering Best Practices <br />
-                                Observability & System Reliability <br />
-                            </p>
-
-
-                            <h2><b>Language Skills</b></h2>
-                            <p>
-                                English (fluent) <br />
-                                Russian (mother tongue) <br />
-                                Finnish (upper intermediate) <br />
-                                German (basic) <br />
-                            </p>
-
-
 
                         </div>
                     </Col>
