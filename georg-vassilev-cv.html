@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georg Vassilev - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: #fff;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 25px;
+        }
+
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .job-date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        .company {
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .job-description {
+            color: #555;
+            margin-left: 0;
+            font-size: 14px;
+        }
+
+        .skills-grid {
+            display: grid;
+            gap: 10px;
+        }
+
+        .skill-category {
+            margin-bottom: 8px;
+        }
+
+        .skill-category strong {
+            color: #2c3e50;
+        }
+
+        .languages {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+
+        @media print {
+            body {
+                padding: 10mm;
+                max-width: 100%;
+            }
+
+            h2 {
+                page-break-after: avoid;
+                page-break-inside: avoid;
+            }
+
+            .section {
+                page-break-inside: avoid;
+            }
+
+            .job {
+                page-break-inside: avoid;
+            }
+
+            /* Keep headings with at least 3 lines of content */
+            h2::after {
+                content: "";
+                display: block;
+                height: 50px;
+                margin-bottom: -50px;
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Georg Vassilev</h1>
+        <div class="contact-info">
+            Kajenkuja 8 23D, 00500 Helsinki<br>
+            📞 040 825 3839 | ✉️ <a href="mailto:selftitled1@gmail.com">selftitled1@gmail.com</a><br>
+            <a href="https://github.com/Georg1992">GitHub: Georg1992</a> | 
+            <a href="https://www.codewars.com/users/Georg1992">Codewars: Georg1992</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Overview</h2>
+        <p>
+            I am an ISRE Engineer with 3+ years of experience at RELEX Solutions, focused on production reliability for distributed systems, cloud infrastructure, and backend platforms.
+            My work centers on incident response and root-cause analysis, JVM-based services (Kotlin, Java), CI/CD, and observability. I use monitoring and tracing to narrow down failures, document findings, and work with engineering on durable fixes.
+            With strong problem-solving skills and hands-on experience in enterprise supply chain software, I am comfortable owning reliability investigations end to end and reading system architecture to prevent repeat incidents.
+            I thrive in collaborative, international teams and am eager to move into a development role where I can apply this reliability mindset to building software from the start.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Programming Languages:</strong> Kotlin, Java, Javascript (Node.js, React), C#, Bash
+            </div>
+            <div class="skill-category">
+                <strong>Frameworks & Libraries:</strong> Node.js, React, Unity 3D
+            </div>
+            <div class="skill-category">
+                <strong>Cloud & Infrastructure:</strong> Azure AD
+            </div>
+            <div class="skill-category">
+                <strong>CI/CD & DevOps:</strong> GitLab CI/CD, Git
+            </div>
+            <div class="skill-category">
+                <strong>Monitoring & Observability:</strong> Grafana, Datadog, Honeycomb
+            </div>
+            <div class="skill-category">
+                <strong>Development Tools:</strong> Visual Studio Code, Android Studio, Jira, Cooper
+            </div>
+            <div class="skill-category">
+                <strong>Operating Systems:</strong> Linux, Mac OSX, Windows
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Work History</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">ISRE Engineer</span>
+                <span class="job-date">05.2025 - Present</span>
+            </div>
+            <div class="company">RELEX Solutions</div>
+            <div class="job-description">
+                Leading production incident response and reliability investigations; using Grafana, Datadog, and Honeycomb for logs, metrics, and traces; configuring business rules and platform settings; writing runbooks and technical documentation; partnering with development teams on fixes and post-incident follow-up.
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Application Support Specialist</span>
+                <span class="job-date">2023 - 05.2025</span>
+            </div>
+            <div class="company">RELEX Solutions</div>
+            <div class="job-description">
+                Resolved technical issues in production environments and worked with GitLab CI/CD pipelines.
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Application Support Analyst</span>
+                <span class="job-date">12.2021 - 2023</span>
+            </div>
+            <div class="company">RELEX Solutions</div>
+            <div class="job-description">
+                Investigated and debugged software issues in enterprise supply chain optimization systems.
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Game Developer/Sound Engineer</span>
+                <span class="job-date">05.2021 - 09.2021</span>
+            </div>
+            <div class="company">Big Ear</div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Stage Assistant, Audio Engineer</span>
+                <span class="job-date">09.2014 - 01.2016 (Civil Service)</span>
+            </div>
+            <div class="company">Lyhty Ry</div>
+        </div>
+    </div>
+
+    <div class="two-column">
+        <div class="section">
+            <h2>Education</h2>
+            <div class="job">
+                <h3>Information Technology Bachelor Degree</h3>
+                <div class="company">Metropolia UAS (Espoo, Finland)</div>
+                <div class="job-date">2019 - 2023</div>
+            </div>
+            <div class="job">
+                <h3>Media Engineering Bachelor Degree</h3>
+                <div class="company">Metropolia UAS (Espoo, Finland)</div>
+                <div class="company">108 ECTS</div>
+                <div class="job-date">2010 - 2014</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Language Skills</h2>
+            <div class="languages">
+                <div><strong>English:</strong> Fluent</div>
+                <div><strong>Russian:</strong> Mother tongue</div>
+                <div><strong>Finnish:</strong> Upper intermediate</div>
+                <div><strong>German:</strong> Basic</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+Georg Vassilev
+040 825 3839 | selftitled1@gmail.com
+
+Re: Software Developer - Business Continuity Team
+
+Hi,
+
+I'm writing to apply for the Software Developer position in the Business Continuity team. I've been at RELEX for 4 years in various technical roles, and I'm ready to transition into development.
+
+As an ISRE Engineer, I've built a solid foundation for this role. I spend my days on production incidents and reliability work, GitLab CI/CD, and observability with Grafana and Datadog. I work with Kotlin and Java, configure business rules and platform settings, and partner with development teams from investigation through fix. I've been deep in code and infrastructure from the reliability side.
+
+Outside of work, I've been building my development skills through personal projects. Most of my coding experience comes from these projects where I've been working with Kotlin, Java, and other technologies. You can check out my work on GitHub - I've made some of my repositories public specifically for this application.
+
+What draws me to this position is that I already understand how our systems break and what it takes to keep them reliable. I know the importance of proper logging, monitoring, and testing because I'm the one using those tools every day. I want to bring that perspective to the development side and help build more robust systems from the ground up.
+
+I'm aware I need to learn Spring Boot and get more hands-on with containerization, but I'm comfortable picking up new technologies. My experience troubleshooting unfamiliar systems has made me good at diving into codebases and figuring things out.
+
+I'd love the opportunity to discuss how my production systems experience could be valuable for the Business Continuity team.
+
+Thanks,
+Georg

@@ -61,10 +61,10 @@ const CV = () => {
                             <h2><b>Overview</b></h2>
                             <p >
 
-                                I am a Technical Service Consultant with 3+ years of experience at RELEX Solutions, working extensively with distributed systems, cloud infrastructure, and backend technologies.
-                                My expertise includes debugging complex production systems, working with JVM-based languages (Kotlin, Java), CI/CD pipelines, and monitoring tools. 
-                                With strong problem-solving abilities and hands-on experience troubleshooting and resolving issues in enterprise software, I excel at maintaining service reliability and understanding system architectures.
-                                I thrive in collaborative, international team environments and am eager to transition into a development role where I can apply my technical knowledge and passion for building robust software solutions.
+                                I am an ISRE Engineer with 3+ years of experience at RELEX Solutions, focused on production reliability for distributed systems, cloud infrastructure, and backend platforms.
+                                My work centers on incident response and root-cause analysis, JVM-based services (Kotlin, Java), CI/CD, and observability. I use monitoring and tracing to narrow down failures, document findings, and work with engineering on durable fixes.
+                                With strong problem-solving skills and hands-on experience in enterprise supply chain software, I am comfortable owning reliability investigations end to end and reading system architecture to prevent repeat incidents.
+                                I thrive in collaborative, international teams and am eager to move into a development role where I can apply this reliability mindset to building software from the start.
 
 
                             </p>
@@ -76,8 +76,8 @@ const CV = () => {
                             <p>
                                 <i>05.2025-present</i><br />
                                 <b>Company:</b> RELEX Solutions <br />
-                                <b>Position:</b> Technical Service Consultant <br />
-                                Debugging production systems, configuring business rules and system settings, analyzing logs with monitoring tools, creating technical documentation, and collaborating with internal development teams.
+                                <b>Position:</b> ISRE Engineer <br />
+                                Leading production incident response and reliability investigations; using Grafana, Datadog, and Honeycomb for logs, metrics, and traces; configuring business rules and platform settings; writing runbooks and technical documentation; partnering with development teams on fixes and post-incident follow-up.
                             </p>
 
                             <p>
