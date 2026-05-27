@@ -3,12 +3,6 @@ import { Link } from "react-router-dom";
 import Graphics from "../components/graphics";
 import "./home.css";
 
-const FOCUS = [
-    "production reliability — RELEX Solutions",
-    "multi-track audio engine — Kotlin, JNI, Oboe",
-    "event-driven automation — WebSockets, SQLite",
-];
-
 const HOME = () => {
     return (
         <div className="home-root">
@@ -35,15 +29,6 @@ const HOME = () => {
                         </a>
                     </nav>
                 </header>
-
-                <section className="home-focus" aria-label="Current focus">
-                    <h2 className="home-focus-label">current focus</h2>
-                    <ul className="home-focus-list">
-                        {FOCUS.map((item) => (
-                            <li key={item}>{item}</li>
-                        ))}
-                    </ul>
-                </section>
             </div>
         </div>
     );
