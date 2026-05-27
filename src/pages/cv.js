@@ -61,10 +61,9 @@ const CV = () => {
                             <h2><b>Overview</b></h2>
                             <p >
 
-                                I am an ISRE Engineer with 3+ years of experience at RELEX Solutions, focused on production reliability for distributed systems, cloud infrastructure, and backend platforms.
-                                My work centers on incident response and root-cause analysis, JVM-based services (Kotlin, Java), CI/CD, and observability. I use monitoring and tracing to narrow down failures, document findings, and work with engineering on durable fixes.
-                                With strong problem-solving skills and hands-on experience in enterprise supply chain software, I am comfortable owning reliability investigations end to end and reading system architecture to prevent repeat incidents.
-                                I thrive in collaborative, international teams and am eager to move into a development role where I can apply this reliability mindset to building software from the start.
+                                Technical specialist with 4+ years at RELEX Solutions across production reliability, distributed enterprise systems, and JVM/backend services.
+                                I own incident response, root-cause analysis, and technical investigations using logs, metrics, and traces — and work with engineering teams on mitigation through durable fixes.
+                                I also develop in Kotlin, Java, and JavaScript, applying the same systems-level troubleshooting, observability, and operational ownership to hands-on software work.
 
 
                             </p>
@@ -76,15 +75,22 @@ const CV = () => {
                             <p>
                                 <i>05.2025-present</i><br />
                                 <b>Company:</b> RELEX Solutions <br />
-                                <b>Position:</b> ISRE Engineer <br />
-                                Leading production incident response and reliability investigations; using Grafana, Datadog, and Honeycomb for logs, metrics, and traces; configuring business rules and platform settings; writing runbooks and technical documentation; partnering with development teams on fixes and post-incident follow-up.
+                                <b>Position:</b> Senior Application Specialist <br />
+                                Lead production incident response and technical investigations across distributed enterprise systems; perform root-cause analysis using logs, metrics, and traces in Grafana, Datadog, and Honeycomb; drive issue mitigation and resolution with engineering teams; configure platform settings and business rules; document findings, runbooks, and operational context for reliability follow-up.
                             </p>
 
                             <p>
-                                <i>2023-05.2025</i><br />
+                                <i>2024-05.2025</i><br />
+                                <b>Company:</b> RELEX Solutions <br />
+                                <b>Position:</b> ISRE Engineer (Technical Service Consultant) <br />
+                                Owned production incident response and reliability investigations for enterprise supply chain platforms; analyzed failures through observability tooling; produced runbooks and technical documentation; partnered with development on root-cause analysis, fixes, and post-incident follow-up.
+                            </p>
+
+                            <p>
+                                <i>2023-2024</i><br />
                                 <b>Company:</b> RELEX Solutions <br />
                                 <b>Position:</b> Application Support Specialist <br />
-                                Resolved technical issues in production environments and worked with GitLab CI/CD pipelines.
+                                Investigated and resolved production issues in distributed enterprise environments; debugged JVM-based services; supported deployments and GitLab CI/CD pipelines.
                             </p>
 
                             <p>
@@ -114,13 +120,13 @@ const CV = () => {
                             <h2><b>Technical Skills</b></h2>
                             <p>
 
-                                <b>Programming Languages:</b> Kotlin, Java, Javascript (Node.js, React), C#, Bash <br />
-                                <b>Frameworks & Libraries:</b> Node.js, React, Unity 3D <br />
-                                <b>Cloud & Infrastructure:</b> Azure AD <br />
+                                <b>Programming Languages:</b> Kotlin, Java, JavaScript, Bash, C#, SQL <br />
+                                <b>Backend & Systems:</b> JVM services, REST APIs, distributed systems <br />
+                                <b>Reliability & Operations:</b> Incident management, root-cause analysis, troubleshooting, operational reliability <br />
+                                <b>Monitoring & Observability:</b> Grafana, Datadog, Honeycomb (logs, metrics, traces) <br />
                                 <b>CI/CD & DevOps:</b> GitLab CI/CD, Git <br />
-                                <b>Monitoring & Observability:</b> Grafana, Datadog, Honeycomb <br />
-                                <b>Development Tools:</b> Visual Studio Code, Android Studio, Jira, Cooper <br />
-                                <b>Operating Systems:</b> Linux, Mac OSX, Windows
+                                <b>Cloud & Platforms:</b> Azure AD, Linux, macOS, Windows <br />
+                                <b>Development:</b> Node.js, React, Android (Kotlin), Unity 3D; Visual Studio Code, Android Studio, Jira, Cooper
                             </p>
 
                             <h2><b>Education</b></h2>
