@@ -38,7 +38,7 @@ const CV = () => {
                             <p>
                                 <h5><b>Links:</b></h5>
                                 <a href="https://github.com/Georg1992" ><b>GitHub</b></a> <br />
-                                <a href="https://www.codewars.com/users/Georg1992"><b>Codewars</b></a> <br />
+                                <a href="https://www.georg-vassilev.com"><b>My website</b></a> <br />
                                 <i>Ask for more if needed!</i>
                             </p>
                         </div>
@@ -140,6 +140,20 @@ const CV = () => {
                                 Media Engineering bachelor degree <br />
                                 108 ECTS <br />
                                 <i>2010-2014 </i> <br />
+                            </p>
+
+                            <h2><b>Selected Technical Projects</b></h2>
+
+                            <p>
+                                <b>Android multi-track audio engine (personal)</b> — Kotlin, Jetpack Compose, JNI, C++, Oboe; active development <br />
+                                • Realtime playback/recording engine with multi-track scheduling, loop timing, and transport synchronization across Kotlin and native C++ audio layers. <br />
+                                • Core playback and transport systems implemented; broader editing and workflow features remain in active development.
+                            </p>
+
+                            <p>
+                                <b>Exchange market analysis and automation system (personal)</b> — WebSockets, exchange APIs, SQLite, event-driven architecture <br />
+                                • Processes realtime market data streams and coordinates analysis, state management, and automation workflows across multiple system components. <br />
+                                • Designed around long-running reliability concerns including reconnect handling, deterministic processing, local persistence, and state consistency across live feeds.
                             </p>
 
                         </div>
