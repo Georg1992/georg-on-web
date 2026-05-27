@@ -39,7 +39,6 @@ const CV = () => {
                                 <h5><b>Links:</b></h5>
                                 <a href="https://github.com/Georg1992" ><b>GitHub</b></a> <br />
                                 <a href="https://www.georg-vassilev.com"><b>My website</b></a> <br />
-                                <i>Ask for more if needed!</i>
                             </p>
                         </div>
 
@@ -61,9 +60,8 @@ const CV = () => {
                             <h2><b>Overview</b></h2>
                             <p >
 
-                                Technical specialist with 4+ years at RELEX Solutions across production reliability, distributed enterprise systems, and JVM/backend services.
-                                I own incident response, root-cause analysis, and technical investigations using logs, metrics, and traces — and work with engineering teams on mitigation through durable fixes.
-                                I also develop in Kotlin, Java, and JavaScript, applying the same systems-level troubleshooting, observability, and operational ownership to hands-on software work.
+                                Technical specialist with 4+ years at RELEX Solutions in production reliability for distributed systems and JVM/backend services.
+                                I lead incident response and root-cause analysis through observability tooling, partner with engineering on durable fixes, and develop in Kotlin, Java, and JavaScript.
 
 
                             </p>
@@ -73,7 +71,7 @@ const CV = () => {
                             </h2>
 
                             <p>
-                                <i>05.2025-present</i><br />
+                                <i>05.2025–Present</i><br />
                                 <b>Company:</b> RELEX Solutions <br />
                                 <b>Position:</b> Senior Application Specialist <br />
                                 Lead production incident response and technical investigations across distributed enterprise systems; perform root-cause analysis using logs, metrics, and traces in Grafana, Datadog, and Honeycomb; drive issue mitigation and resolution with engineering teams; configure platform settings and business rules; document findings, runbooks, and operational context for reliability follow-up.
@@ -101,15 +99,15 @@ const CV = () => {
                             </p>
 
                             <p>
-                                <i>05.2021-09.2021</i> <br />
-                                Company: Big Ear <br />
-                                Position: Game Developer/Sound Engineer <br />
+                                <i>05.2021–09.2021</i> <br />
+                                <b>Company:</b> Big Ear <br />
+                                <b>Position:</b> Game Developer/Sound Engineer <br />
                             </p>
 
                             <p>
-                                <i>09.2014-01.2016 (Civil Service)</i> <br />
-                                Company: Lyhty Ry <br />
-                                Position: Stage Assistant, Audio Engineer <br />
+                                <i>09.2014–01.2016 (Civil Service)</i> <br />
+                                <b>Company:</b> Lyhty Ry <br />
+                                <b>Position:</b> Stage Assistant, Audio Engineer <br />
                             </p>
 
                         </div>
@@ -133,14 +131,14 @@ const CV = () => {
                             <h2><b>Education</b></h2>
                             <p>
                                 Metropolia UAS (Espoo, Finland) <br />
-                                Information Technology bachelor degree <br />
-                                <i>2019-2023</i> <br />
+                                Information Technology, bachelor's degree <br />
+                                <i>2019–2023</i> <br />
                             </p>
                             <p>
                                 Metropolia UAS (Espoo, Finland) <br />
-                                Media Engineering bachelor degree <br />
+                                Media Engineering, bachelor's degree <br />
                                 108 ECTS <br />
-                                <i>2010-2014 </i> <br />
+                                <i>2010–2014</i> <br />
                             </p>
 
                             <h2><b>Selected Technical Projects</b></h2>
