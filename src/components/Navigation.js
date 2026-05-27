@@ -11,7 +11,7 @@ function Navigation() {
     return (
         <header>
             <div className="nav-container">
-                <Navbar bg="light" expand="lg" className="p-1" >
+                <Navbar expand="lg" className="p-1 site-nav navbar-dark">
                     <Navbar.Brand>
                         <Image
                             src={giflogo}
@@ -19,7 +19,7 @@ function Navigation() {
                         </Image>
                     </Navbar.Brand>
 
-                    <Nav className={`nav justify-content-center text-center`}>
+                    <Nav className="site-nav-links ms-auto">
                         <LinkContainer to="/">
                             <Nav.Link>Home</Nav.Link>
                         </LinkContainer>

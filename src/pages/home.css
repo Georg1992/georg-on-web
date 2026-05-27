@@ -1,7 +1,12 @@
 .home-root {
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(180deg, #000000 0%, #0a0a0a 100%);
+    background: radial-gradient(
+        ellipse 130% 90% at 22% 8%,
+        var(--color-mid) 0%,
+        var(--color-dark) 55%,
+        var(--color-dark) 100%
+    );
     overflow: hidden;
 }
 
@@ -9,7 +14,7 @@
     position: absolute;
     inset: 0;
     z-index: 0;
-    opacity: 0.85;
+    opacity: 0.75;
 }
 
 .home-canvas-wrap canvas {
@@ -35,7 +40,7 @@
     font-size: clamp(1.5rem, 4vw, 2rem);
     font-weight: 500;
     letter-spacing: -0.02em;
-    color: #e8e8e8;
+    color: var(--text-on-dark);
     line-height: 1.2;
 }
 
@@ -44,7 +49,7 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 0.8rem;
     letter-spacing: 0.04em;
-    color: rgb(107, 187, 187);
+    color: var(--color-light);
     text-transform: lowercase;
 }
 
@@ -52,7 +57,7 @@
     margin: 0 0 1.5rem;
     font-size: 0.95rem;
     line-height: 1.55;
-    color: #9a9a9a;
+    color: var(--text-muted-on-dark);
     max-width: 28rem;
 }
 
@@ -65,16 +70,17 @@
 }
 
 .home-links a {
-    color: rgb(107, 187, 187);
+    color: var(--color-light);
     text-decoration: none;
 }
 
 .home-links a:hover {
+    color: var(--text-on-dark);
     text-decoration: underline;
 }
 
 .home-links-sep {
-    color: #444;
+    color: var(--color-mid);
     user-select: none;
 }
 

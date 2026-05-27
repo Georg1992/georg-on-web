@@ -1,3 +1,19 @@
+:root {
+    /* Three-color palette sampled from gif_logo.gif */
+    --color-dark: #1d1d1d;   /* corners / header */
+    --color-mid: #373737;    /* center vignette */
+    --color-light: #bebebe;  /* wireframe nodes */
+
+    --bg-base: var(--color-dark);
+    --bg-mid: var(--color-mid);
+    --bg-soft: var(--color-mid);
+    --text-on-dark: #e8e8e8;
+    --text-muted-on-dark: #787878;
+    --wireframe: var(--color-light);
+    --wireframe-dim: rgba(190, 190, 190, 0.35);
+    --border-on-dark: rgba(55, 55, 55, 0.8);
+    --link-on-light: #4a6060;
+}
 
 .mrl-container {
     background-color: rgba(0, 0, 0, 0.05);
@@ -10,31 +26,76 @@ body{
 
 .divider{
     height: 1px;
-    background-color:rgb(107, 187, 187);
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--color-mid) 20%,
+        var(--color-light) 50%,
+        var(--color-mid) 80%,
+        transparent 100%
+    );
+    opacity: 0.45;
 }
 
 a{
-    color:rgb(107, 187, 187) ;
+    color: var(--link-on-light);
 }
 
 .nav-container{
-    
+    background-color: var(--color-dark);
 }
 
-.nav-link{
+.site-nav {
+    background-color: var(--color-dark) !important;
+    padding: 0.25rem 1.5rem !important;
+}
+
+.site-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+}
+
+.nav-container .nav-link {
+    position: relative;
+    color: var(--text-muted-on-dark) !important;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 0.75rem;
     font-weight: 500;
-    font-family:monospace;
-    }
-
-.nav-link:hover{
-    color:rgb(107, 187, 187);
-    
-
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.625rem 1rem !important;
+    border: none !important;
+    background: transparent !important;
+    transition: color 0.2s ease;
 }
 
-.nav{
-    font-size: larger;
-    font-family:'Courier New', Courier, monospace;
+.nav-container .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0.4rem;
+    height: 1px;
+    background: var(--color-light);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.22s ease;
+    opacity: 0.85;
+}
+
+.nav-container .nav-link:hover,
+.nav-container .nav-link:focus {
+    color: var(--text-on-dark) !important;
+}
+
+.nav-container .nav-link:hover::after,
+.nav-container .nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.nav-container .nav-link.active {
+    color: var(--color-light) !important;
 }
 
 .graphic-container {
@@ -52,7 +113,6 @@ a{
     
     
 }
-
 
 
 

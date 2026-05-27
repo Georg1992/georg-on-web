@@ -45,12 +45,12 @@ const CV = () => {
 
 
                         <div className="text-left" style={{ marginTop: '20px' }}>
-                            <h2><b>Language Skills</b></h2>
+                            <h2><b>Languages</b></h2>
                             <p>
-                                English (fluent) <br />
-                                Russian (mother tongue) <br />
-                                Finnish (upper intermediate) <br />
-                                German (basic) <br />
+                                English — Fluent <br />
+                                Russian — Native <br />
+                                Finnish — Basic <br />
+                                German — Basic <br />
                             </p>
                         </div>
 
@@ -126,7 +126,8 @@ const CV = () => {
                                 <b>Monitoring & Observability:</b> Grafana, Datadog, Honeycomb (logs, metrics, traces) <br />
                                 <b>CI/CD & DevOps:</b> GitLab CI/CD, Git <br />
                                 <b>Cloud & Platforms:</b> Azure AD, Linux, macOS, Windows <br />
-                                <b>Development:</b> Node.js, React, Android (Kotlin), Unity 3D; Visual Studio Code, Android Studio, Jira, Cooper
+                                <b>Development:</b> Node.js, React, Android (Kotlin), Unity 3D; Visual Studio Code, Android Studio, Jira, Cooper <br />
+                                <b>AI-Assisted Development Workflows:</b> Cursor, LLM-based code review/debugging
                             </p>
 
                             <h2><b>Education</b></h2>

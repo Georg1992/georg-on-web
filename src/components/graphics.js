@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
-const TEAL = '107, 187, 187';
-const AMBER = '201, 169, 98';
+const WIRE_LIGHT = '190, 190, 190';
+const WIRE_MID = '110, 110, 110';
 
 const renderGraphics = (ctx, numberOfBeams, time) => {
   const canvas = ctx.canvas;
@@ -20,8 +20,8 @@ const renderGraphics = (ctx, numberOfBeams, time) => {
     const endX = centerX + Math.cos(angle) * (beamLength + distance);
     const endY = centerY + Math.sin(angle) * (beamLength + distance);
 
-    const opacity = (1 - distance / fadeOutDuration) * (i % 2 === 0 ? 0.55 : 0.35);
-    const rgb = i % 2 === 0 ? TEAL : AMBER;
+    const opacity = (1 - distance / fadeOutDuration) * (i % 2 === 0 ? 0.4 : 0.22);
+    const rgb = i % 2 === 0 ? WIRE_LIGHT : WIRE_MID;
 
     const gradient = ctx.createLinearGradient(centerX, centerY, endX, endY);
     gradient.addColorStop(0, `rgba(${rgb}, ${opacity})`);
